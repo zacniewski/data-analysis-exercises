@@ -1,0 +1,9 @@
+https://www.freecodecamp.org/news/web-scraping-python-tutorial-how-to-scrape-data-from-a-website/
+
+https://numpy.org/doc/stable/user/absolute_beginners.html
+
+https://matplotlib.org/stable/users/explain/quick_start.html
+
+https://analityk.edu.pl/python-pandas/
+
+https://analityk.edu.pl/python-pandas-mega-tutorial/
