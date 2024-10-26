@@ -14,4 +14,6 @@ Należy zrealizować następujące zadania:
     - utwórz wykres kołowy zawierający informację o liczbie 'id' dla danego albumu (metoda 'size()'),
     - zapisz ww. wykres do pliku 'png' w o nazwie 'Nazwisko-albums.png',
     - utwórz funkcję 'oznaczenie', której użycie (za pomocą 'apply') spowoduje dodanie kolumny 'Oznaczenie' z danymi w postaci 'albumId'-'id',
-      czyli dla 'albumId=2' i 'id=3' otrzymamy '2-3'
+      czyli dla 'albumId=2' i 'id=3' otrzymamy '2-3'.
+
+2. Coming soon ...
