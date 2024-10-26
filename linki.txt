@@ -7,3 +7,5 @@ https://matplotlib.org/stable/users/explain/quick_start.html
 https://analityk.edu.pl/python-pandas/
 
 https://analityk.edu.pl/python-pandas-mega-tutorial/
+
+https://www.kaggle.com/learn
