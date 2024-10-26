@@ -1,0 +1,17 @@
+Należy zrealizować następujące zadania:
+
+1. manipulacje danymi w formacie JSON
+
+    - pod adresem https://jsonplaceholder.typicode.com/photos znajdziesz 5000 zasobów typu 'photo',
+    - pojedynczy zasób jest dostępny np. pod adresem https://jsonplaceholder.typicode.com/photos/x, gdzie x to liczba z zakresu <1, 5000>,
+    - zapisz wszystkie dane z ww. linku do pliku 'photos.json'
+
+    Ważne: pamiętaj o serializacji danych za pomocą 'json.dumps',
+           przykład - https://www.geeksforgeeks.org/reading-and-writing-json-to-a-file-in-python/
+
+    - utwórz DataFrame z wykorzystaniem pliku 'photos.json' i sprawdź metodą 'head()' czy wyświetlają się prawidłowe dane,
+    - wygeneruj podsumowanie za pomocą metod 'groupby()' i 'agg()'
+    - utwórz wykres kołowy zawierający informację o liczbie 'id' dla danego albumu (metoda 'size()'),
+    - zapisz ww. wykres do pliku 'png' w o nazwie 'Nazwisko-albums.png',
+    - utwórz funkcję 'oznaczenie', której użycie (za pomocą 'apply') spowoduje dodanie kolumny 'Oznaczenie' z danymi w postaci 'albumId'-'id',
+      czyli dla 'albumId=2' i 'id=3' otrzymamy '2-3'
