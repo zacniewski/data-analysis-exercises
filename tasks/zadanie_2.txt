@@ -1,0 +1,22 @@
+Należy zrealizować następujące zadania:
+
+    1. utwórz za pomocą 'openpyxl' trzy arkusze o nazwach "Todos", "Linki" i "Filmweb",
+
+    - pod adresem https://jsonplaceholder.typicode.com/todos/ znajdziesz 200 zasobów typu ToDo,
+
+    - pojedynczy zasób jest dostępny np. pod adresem https://jsonplaceholder.typicode.com/todos/x, gdzie x to liczba z zakresu <1, 200>,
+    
+    - wygeneruj w pętli kolejne pseudolosowe adresy pojedynczych zasobów, aż do znalezienia trzech takich dla których completed: true. Zapisz w arkuszu "Todos" wartości znalezionych 'id' oraz 'title'.
+
+    2. dla wybranej strony internetowej napisz kod, który połączy się ze stroną, znajdzie wszystkie linki (co najmniej 10) na stronie (znacznik ‘a’ posiadający atrybut ‘href’), a następnie zapisze je do arkusza ‘Linki’,
+    
+    3. dla ustalonego linku do filmu na Filmwebie, np. https://www.filmweb.pl/film/Gladiator-2000-936, napisz kod, który zwróci:
+        nazwisko reżysera,
+        datę premiery,
+        boxoffice,
+        ocenę filmu.
+
+    - zapisz uzyskane wyniki do arkusza ‘Filmweb’.
+    
+    4. zapisz plik z wynikami trzech zadań w formie ‘nazwisko-grupa.xlsx’.
+

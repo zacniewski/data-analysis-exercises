@@ -1,0 +1,25 @@
+Poniższe zagadnienia powinny zostać zrealizowane (wyświetlone jako wynik działania skryptu lub skryptów) z użyciem odpowiednich funkcji wybranego pakietu (np. NumPy):
+
+-    utwórz tablicę zawierającą 10 zer,
+-    utwórz tablicę zawierającą 10 piątek,
+-    utwórz tablicę zawierającą liczby od 10 do 50,
+-    utwórz macierz (tablica wielowymiarowa) o wymiarach 3x3 zawierającą liczby od 0 do 8,
+-    utwórz macierz jednostkową o wymiarach 3x3,
+-    utwórz macierz o wymiarach 5x5 zawierającą liczby z dystrybucji normalnej (Gaussa),
+-    utwórz macierz o wymiarach 10x10 zawierającą liczby od 0,01 do 1 z krokiem 0,01,
+-    utwórz tablicę zawierającą 20 liniowo rozłożonych liczb między 0 a 1 (włącznie z 0 i 1),
+-    utwórz tablicę zawierającą losowe liczby z przedziału (1, 25), następnie zamień ją na macierz o wymiarach 5 x 5 z tymi samymi liczbami:
+        oblicz sumę wszystkich liczb w ww. macierzy,
+        oblicz średnią wszystkich liczb w ww. macierzy,
+        oblicz standardową dewiację dla liczb w ww. macierzy,
+        oblicz sumę każdej kolumny ww. macierzy i zapisz ją do tablicy.
+-    utwórz macierz o wymiarach 5x5 zawierającą losowe liczby z przedziału (0, 100) oraz:
+        oblicz medianę tych liczb,
+        znajdź najmniejszą liczbę tej macierzy,
+        znajdź największą liczbę tej macierzy.
+-    utwórz macierz o wymiarach różnych od siebie i większych od 1, zawierającą losowe liczby z przedziału (0, 100) i dokonaj jej transpozycji,
+-    utwórz dwie macierze o odpowiednich wymiarach, większych od 2x2 i dodaj je do siebie,
+-    utwórz dwie macierze o odpowiednich wymiarach różnych od siebie i większych od 2, a następnie pomnóż je przez siebie za pomocą dwóch różnych funkcji (np. ‘matmul’ i ‘multiply’, proszę poczytać o różnicach w obliczaniu wyników mnożenia).
+
+
+>> Ściąga do pakietu Numpy: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf
