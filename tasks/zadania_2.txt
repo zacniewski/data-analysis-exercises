@@ -1,5 +1,7 @@
 Należy zrealizować poniższe zadania.
-Rozwiązania umieszczamy w pliku o nazwie postaci 'nazwisko-zadanie2.xlsx'
+Rozwiązania umieszczamy w plikach postaci:
+    - 'nazwisko-zadanie2.py' dla skryptu z kodem w języku Python.
+    - 'nazwisko-zadanie2.xlsx' dla danych wyszukanych w ramach działania skryptu Pythona.
 
 1. utwórz za pomocą 'openpyxl' trzy arkusze o nazwach "Todos", "Linki" i "Filmweb":
 
