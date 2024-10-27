@@ -1,4 +1,5 @@
-Należy zrealizować następujące zadania:
+Należy zrealizować poniższe zadania.
+Rozwiązania umieszczamy w pliku o nazwie postaci 'nazwisko-zadanie2.xlsx'
 
 1. utwórz za pomocą 'openpyxl' trzy arkusze o nazwach "Todos", "Linki" i "Filmweb":
 
@@ -19,6 +20,3 @@ Należy zrealizować następujące zadania:
         ocenę filmu.
 
     - zapisz uzyskane wyniki do arkusza ‘Filmweb’.
-    
-4. zapisz plik z wynikami trzech zadań w formie ‘nazwisko-grupa.xlsx’.
-

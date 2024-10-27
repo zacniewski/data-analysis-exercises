@@ -1,4 +1,5 @@
-Poniższe zagadnienia powinny zostać zrealizowane (wyświetlone jako wynik działania skryptu lub skryptów) z użyciem odpowiednich funkcji wybranego pakietu (wskazane NumPy):
+Poniższe zagadnienia powinny zostać zrealizowane z użyciem odpowiednich funkcji pakietu NumPy.
+Rozwiązania umieszczamy w pliku o nazwie postaci 'nazwisko-zadanie1.py'
 
 1.   utwórz tablicę zawierającą 10 zer,
 2.   utwórz tablicę zawierającą 10 piątek,
@@ -20,6 +21,5 @@ Poniższe zagadnienia powinny zostać zrealizowane (wyświetlone jako wynik dzia
 11.  utwórz macierz o wymiarach różnych od siebie i większych od 1, zawierającą losowe liczby z przedziału (0, 100) i dokonaj jej transpozycji,
 12.  utwórz dwie macierze o odpowiednich wymiarach, większych od 2x2 i dodaj je do siebie,
 13.  utwórz dwie macierze o odpowiednich wymiarach różnych od siebie i większych od 2, a następnie pomnóż je przez siebie za pomocą dwóch różnych funkcji (np. ‘matmul’ i ‘multiply’, proszę poczytać o różnicach w obliczaniu wyników mnożenia).
-
 
 >> Ściąga do pakietu Numpy: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf
