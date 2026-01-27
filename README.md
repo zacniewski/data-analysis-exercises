@@ -28,6 +28,13 @@ python -m venv my_env
 # Aktywacja (Windows)
 my_env\Scripts\activate
 
+# lub (Windows
+cd my_env
+cd Scripts
+activate
+cd ..
+cd ..
+
 # Aktywacja (Linux/macOS)
 source my_env/bin/activate
 
