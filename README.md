@@ -10,6 +10,7 @@ Repozytorium zawierające ćwiczenia, skrypty i materiały do nauki obróbki ora
 
 ## Struktura projektu
 - `data/` - zbiory danych w formatach CSV i XLSX.
+- `docs/` - dokumentacja bibliotek (NumPy, Pandas, Matplotlib).
 - `images/` - pliki graficzne.
 - `notebooks/` - interaktywne notatniki Jupyter Notebook.
 - `scripts/` - skrypty Python (scraping, pandas, numpy).
@@ -49,6 +50,11 @@ pip install -r requirements.txt
 - **Wizualizacja**: Skrypty generujące wykresy (`scripts/plot*.py`).
 
 ## Przydatne linki
+- [Dokumentacja lokalna (Markdown)](docs/)
+    - [NumPy](docs/numpy.md)
+    - [Pandas](docs/pandas.md)
+    - [Matplotlib](docs/matplotlib.md)
+    - [Inne (Requests, BeautifulSoup)](docs/others.md)
 - [Hands-On Data Preprocessing in Python](https://github.com/PacktPublishing/Hands-On-Data-Preprocessing-in-Python/tree/main) - kod źródłowy do książki.
 - [Analityk.edu.pl](https://www.youtube.com/@Analitykedupl/videos) - kanał YT oraz ich [repozytorium](https://github.com/AnalitykEduPL/Najwazniejsze-biblioteki-Python/tree/master).
 - [Python Pandas Mega Tutorial](https://analityk.edu.pl/python-pandas-mega-tutorial/) - świetne źródło wiedzy o Pandas.
