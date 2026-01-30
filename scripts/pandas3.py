@@ -1,6 +1,6 @@
 import pandas as pd
 
-miasta = pd.read_csv('worldcities.csv')
+miasta = pd.read_csv('data/worldcities.csv')
 
 # print(miasta.info())
 # print(miasta.population.describe())

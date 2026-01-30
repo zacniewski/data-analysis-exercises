@@ -1,6 +1,6 @@
 import pandas as pd
 
-films = pd.read_csv('film.csv', sep=';', encoding = "ISO-8859-1")
+films = pd.read_csv('data/film.csv', sep=';', encoding = "ISO-8859-1")
 
 #print(films.head())
 
@@ -19,8 +19,11 @@ print(films.Length.mean())
 
 
 def zamien(wartosc):
-    if wartosc == 'No': return False
-    if wartosc == 'Yes': return True
+    if wartosc == 'No':
+        return False
+    if wartosc == 'Yes':
+        return True
+    return None
 
 
 films.Awards = films.Awards.apply(zamien)

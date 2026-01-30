@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('scripts\Countries.csv')
+df = pd.read_csv('data\Countries.csv')
 
 print(df.describe())
 # print(df.head())
