@@ -5,8 +5,9 @@ Repozytorium zawierające ćwiczenia, skrypty i materiały do nauki obróbki ora
 ## Spis treści
 1. [Struktura projektu](#struktura-projektu)
 2. [Instalacja i konfiguracja](#instalacja-i-konfiguracja)
-3. [Zawartość](#zawartość)
-4. [Przydatne linki](#przydatne-linki)
+3. [Uruchamianie skryptów](#uruchamianie-skryptów)
+4. [Zawartość](#zawartość)
+5. [Przydatne linki](#przydatne-linki)
 
 ## Struktura projektu
 - `data/` - zbiory danych w formatach CSV i XLSX.
@@ -29,7 +30,7 @@ python -m venv my_env
 # Aktywacja (Windows)
 my_env\Scripts\activate
 
-# lub (Windows
+# lub (Windows)
 cd my_env
 cd Scripts
 activate
@@ -42,6 +43,22 @@ source my_env/bin/activate
 # Instalacja zależności
 pip install -r requirements.txt
 ```
+
+## Uruchamianie skryptów
+
+Aby uruchomić wybrany skrypt, należy użyć polecenia `python` (lub `python3` na systemach Linux/macOS) wraz ze ścieżką do pliku:
+
+```shell
+# Przykład uruchomienia skryptu z katalogu scripts
+python scripts/pandas1.py
+```
+
+### Czego się spodziewać?
+Po uruchomieniu skryptu możesz spodziewać się:
+- Wyświetlenia danych lub wyników analizy bezpośrednio w konsoli.
+- Utworzenia lub zaktualizowania plików w katalogu `data/` (w przypadku skryptów zapisujących dane). Każdy skrypt powinien wygenerować plik zawierający słowo **'Nazwisko'** w swojej nazwie.
+- Wygenerowania wykresów w nowym oknie lub zapisania ich jako obrazy w katalogu `images/`.
+- Wykonania operacji scrapingowych i pobrania danych ze stron internetowych.
 
 ## Zawartość
 - **Scraping**: Skrypty do pobierania danych ze stron internetowych (`scripts/scraping*.py`).
