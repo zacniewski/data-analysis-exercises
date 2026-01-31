@@ -12,5 +12,5 @@ ax.set(xlabel='time (s)', ylabel='voltage (mV)',
        title='About as simple as it gets, folks')
 # ax.grid()
 
-fig.savefig("Sinusoida.png")
+fig.savefig("scripts/Nazwisko_plot1.png")
 plt.show()

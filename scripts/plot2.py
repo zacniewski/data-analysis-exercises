@@ -20,11 +20,11 @@ plt.subplots_adjust(left=0.1,
                     top=0.9,
                     wspace=0.4,
                     hspace=0.4)
-plt.savefig("Wykres-poczwórny.png", dpi=1200)
+plt.savefig("scripts/Nazwisko_plot2_poczworny.png", dpi=1200)
 
 plt.figure(2)
 plt.plot(t, s2)
 plt.grid()
-plt.savefig("Wykres-pojedynczy.png", dpi=600)
+plt.savefig("scripts/Nazwisko_plot2_pojedynczy.png", dpi=600)
 
 plt.show()
