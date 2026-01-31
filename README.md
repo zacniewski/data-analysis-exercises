@@ -44,8 +44,14 @@ cd ..
 source my_env/bin/activate
 
 # Instalacja zależności
-pip install -r requirements.txt
+pip install -r requirements.txt  
+
+# deaktywacja środowiska wirtualnego
+deactivate
 ```
+
+> Używając PyCharma do tworzenia nowego projektu, często zachodzi sytuacja że PyCharm tworzy automatycznie środowisko wirtualne o nazwie `.venv` i je aktywuje.
+> Wtedy można zamiast tworzyć środowisko wirtualne `my_env` skorzystać z już gotowego środowiska `.venv`
 
 ## Uruchamianie skryptów
 
