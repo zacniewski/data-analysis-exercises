@@ -52,7 +52,7 @@ deactivate
 
 > Używając PyCharma do tworzenia nowego projektu, często zachodzi sytuacja, że PyCharm tworzy automatycznie środowisko wirtualne o nazwie `.venv` i je aktywuje.  
 > Wtedy można, zamiast tworzyć środowisko wirtualne `my_env` skorzystać z już gotowego środowiska `.venv`  
-> Można też (druga opcja) deaktywować środowisko `venv` za pomocą komendy `deactivate` i utworzyć własne ww. środowisko.
+> Można też (druga opcja) deaktywować środowisko `.venv` za pomocą komendy `deactivate` i utworzyć własne ww. środowisko.
 
 ## Uruchamianie skryptów
 
