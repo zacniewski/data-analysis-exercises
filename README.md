@@ -25,6 +25,7 @@ Zaleca się korzystanie ze środowiska wirtualnego.
 
 ```shell
 # Tworzenie środowiska wirtualnego
+# Można uzyć 'cmd' (zawsze działa) lub 'powershell' (czasem buntuje się w PyCharmie)
 python -m venv my_env
 
 # Aktywacja (Windows)
@@ -36,6 +37,8 @@ cd Scripts
 activate
 cd ..
 cd ..
+
+# Nazwa środowiska wirtualnego (my_env w tym przypadku) powinna zostać wyświetlona w nawiasach okrągłych.
 
 # Aktywacja (Linux/macOS)
 source my_env/bin/activate
