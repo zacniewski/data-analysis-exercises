@@ -72,7 +72,7 @@ Aby uruchomić wybrany skrypt, należy użyć polecenia `python` (lub `python3` 
 ├── scripts
 └── tasks
 
-# Przykład uruchomienia skryptu z katalogu scripts
+# Przykład uruchomienia skryptu, który znajduje się w katalogu `scripts`
 python scripts/pandas1.py
 ```
 
