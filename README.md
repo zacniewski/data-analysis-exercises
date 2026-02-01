@@ -59,6 +59,19 @@ deactivate
 Aby uruchomić wybrany skrypt, należy użyć polecenia `python` (lub `python3` na systemach Linux/macOS) wraz ze ścieżką do pliku:
 
 ```shell
+# jesteśmy w folderze z naszym projektem
+# nie wchodzimy do folderu `scripts`
+.
+├── data
+├── docs
+├── images
+├── my_env
+├── notebooks
+├── README.md
+├── requirements.txt
+├── scripts
+└── tasks
+
 # Przykład uruchomienia skryptu z katalogu scripts
 python scripts/pandas1.py
 ```
