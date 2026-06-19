@@ -1,24 +1,42 @@
-# Ćwiczenia z obróbki i analizy danych
+# Obróbka i Analiza Danych - Teoria i Praktyka
 
-Repozytorium zawierające ćwiczenia, skrypty i materiały do nauki obróbki oraz analizy danych w języku Python.
+Repozytorium stanowi kompleksowy kurs do przedmiotu "Obróbka i analiza danych". Obejmuje 8 godzin wykładów oraz 15 godzin laboratoriów.
 
-## Spis treści
-1. [Struktura projektu](#struktura-projektu)
-2. [Instalacja i konfiguracja](#instalacja-i-konfiguracja)
-3. [Uruchamianie skryptów](#uruchamianie-skryptów)
-4. [Zawartość](#zawartość)
-5. [Przydatne linki](#przydatne-linki)
+## 📚 Program Kursu
 
-## Struktura projektu
-- `data/` - zbiory danych w formatach CSV i XLSX.
-- `docs/` - dokumentacja bibliotek (NumPy, Pandas, Matplotlib).
-- `images/` - pliki graficzne.
-- `notebooks/` - interaktywne notatniki Jupyter Notebook.
-- `scripts/` - skrypty Python (scraping, pandas, numpy).
-- `tasks/` - zestawy zadań do samodzielnego wykonania.
-- `requirements.txt` - lista wymaganych bibliotek.
+### Wykłady (8h)
+1. **[Wykład 1: Wprowadzenie i NumPy](lectures/lecture_1.md)** - Podstawy analizy, środowisko pracy i fundament obliczeniowy.
+2. **[Wykład 2: Pozyskiwanie danych](lectures/lecture_2.md)** - Formaty plików, API oraz Web Scraping.
+3. **[Wykład 3: Przetwarzanie w Pandas](lectures/lecture_3.md)** - EDA, czyszczenie i transformacje danych.
+4. **[Wykład 4: Wizualizacja](lectures/lecture_4.md)** - Komunikacja wyników i dobre praktyki prezentacji danych.
+5. **[Wykład 5: Excel i JSON](lectures/lecture_5.md)** - Praca z arkuszami kalkulacyjnymi i API.
+6. **[Wykład 6: Web Scraping](lectures/lecture_6.md)** - Zaawansowane techniki pobierania danych z WWW.
+7. **[Wykład 7: Szeregi czasowe](lectures/lecture_7.md)** - Analiza danych w czasie.
+8. **[Wykład 8: Podsumowanie](lectures/lecture_8.md)** - Dobre praktyki i cykl życia projektu.
 
-## Instalacja i konfiguracja
+### Laboratoria (15h)
+1. **[Lab 1: Fundamenty](labs/lab_1.md)** - Konfiguracja i NumPy.
+2. **[Lab 2: Dane z WWW](labs/lab_2.md)** - Scraping i praca z plikami CSV/JSON/Excel.
+3. **[Lab 3: Eksploracja](labs/lab_3.md)** - Podstawy Pandas i analiza EDA.
+4. **[Lab 4: Transformacje](labs/lab_4.md)** - Czyszczenie danych i agregacje.
+5. **[Lab 5: Wizualizacja](labs/lab_5.md)** - Wykresy w Matplotlib i Seaborn.
+6. **[Lab 6: Excel](labs/lab_6.md)** - openpyxl i Pandas w arkuszach.
+7. **[Lab 7: JSON & API](labs/lab_7.md)** - Integracja z usługami zewnętrznymi.
+8. **[Lab 8: Scraper](labs/lab_8.md)** - Budowa własnego narzędzia do pozyskiwania danych.
+9. **[Lab 9: Czas](labs/lab_9.md)** - Analiza szeregów czasowych.
+10. **[Lab 10: Projekt](labs/lab_10.md)** - Kompleksowa analiza dużego zbioru danych.
+
+---
+
+## 🛠️ Struktura projektu
+- `lectures/` - materiały teoretyczne (Markdown).
+- `labs/` - instrukcje do zajęć laboratoryjnych.
+- `data/` - zbiory danych do ćwiczeń.
+- `scripts/` - gotowe przykłady w Pythonie.
+- `docs/` - dokumentacja bibliotek.
+- `notebooks/` - interaktywne notatniki.
+
+## 🚀 Instalacja i konfiguracja
 
 ### Środowisko wirtualne
 Zaleca się korzystanie ze środowiska wirtualnego.
